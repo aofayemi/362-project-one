@@ -7,11 +7,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-
+/*About element styles*/
 .intro{
    text-align: center;
    font-size: 50px;
    font-weight: bold;
    padding: 5%;
    color: #ff0000;
+}
+
+
+/*Responsive image Style*/
+
+@media screen and(min-width: 600px) {
+  .images {
+    display: flex;
+    flex-flow: row wrap-reverse;
+  }
+
 }
